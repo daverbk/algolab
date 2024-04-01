@@ -1,12 +1,10 @@
-Usage 1
+# General usage
 
-1) Start one pointer at the first index 0 and the other pointer at the last index input.length - 1.
-2) Use a while loop until the pointers are equal to each other.
-3) At each iteration of the loop, move the pointers towards each other. This means either increment the pointer that
+1. Start one pointer at the first index 0 and the other pointer at the last index input.length - 1.
+2. Use a while loop until the pointers are equal to each other.
+3. At each iteration of the loop, move the pointers towards each other. This means either increment the pointer that
    started at the first index, decrement the pointer that started at the last index, or both. Deciding which pointers to
    move will depend on the problem we are trying to solve.
-
-Pseudocode:
 
 ```
 function fn(arr):
@@ -21,17 +19,15 @@ function fn(arr):
             3. Both left++ and right--
 ```
 
-Usage 2
+# Usage for multiple input arrays
 
-1) Create two pointers, one for each iterable. Each pointer should start at the first index
-2) Use a while loop until one of the pointers reaches the end of its iterable
-3) At each iteration of the loop, move the pointers forward. This means incrementing either one of the pointers or both
+1. Create two pointers, one for each iterable. Each pointer should start at the first index
+2. Use a while loop until one of the pointers reaches the end of its iterable
+3. At each iteration of the loop, move the pointers forward. This means incrementing either one of the pointers or both
    of the pointers. Deciding which pointers to move will depend on the problem we are trying to solve
-4) Because our while loop will stop when one of the pointers reaches the end, the other pointer will not be at the end
+4. Because our while loop will stop when one of the pointers reaches the end, the other pointer will not be at the end
    of its respective iterable when the loop finishes. Sometimes, we need to iterate through all elements - if this is
    the case, you will need to write extra code here to make sure both iterables are exhausted
-
-Pseudocode:
 
 ```
 function fn(arr1, arr2):
