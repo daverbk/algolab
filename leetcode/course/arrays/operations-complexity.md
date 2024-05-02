@@ -9,5 +9,4 @@
 | Checking if element exists | O(n)      | O(n)   |
 
 `*O(1)` amortized time complexity for appending to the end of an ArrayList is caused by the need to resize the array
-when
-it's full
+when it's full
