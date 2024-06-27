@@ -9,22 +9,22 @@ public class GreatestByDigitSum {
         System.out.println("Via loops:");
         System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSum(new int[]{123, 456, 789}))); // 24, 789
         System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSum(new int[]{111, 111, 111}))); // 3, 111
-        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSum(new int[]{1024, 2048, 4096, 8192}))); // 21, 8192
-        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSum(new int[]{}))); // 21, 8192
+        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSum(new int[]{1024, 2048, 4096, 8192}))); // 20, 8192
+        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSum(new int[]{}))); // null
         System.out.println("=".repeat(30));
 
         System.out.println("Via recursion:");
         System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumRecursion(new int[]{123, 456, 789}))); // 24, 789
         System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumRecursion(new int[]{111, 111, 111}))); // 3, 111
-        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumRecursion(new int[]{1024, 2048, 4096, 8192}))); // 21, 8192
-        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumRecursion(new int[]{}))); // 21, 8192
+        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumRecursion(new int[]{1024, 2048, 4096, 8192}))); // 20, 8192
+        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumRecursion(new int[]{}))); // null
         System.out.println("=".repeat(30));
 
         System.out.println("Via a stream:");
         System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumStreams(new int[]{123, 456, 789}))); // 24, 789
         System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumStreams(new int[]{111, 111, 111}))); // 3, 111
-        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumStreams(new int[]{1024, 2048, 4096, 8192}))); // 21, 8192
-        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumStreams(new int[]{}))); // 21, 8192
+        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumStreams(new int[]{1024, 2048, 4096, 8192}))); // 20, 8192
+        System.out.println("Greatest digit sum: " + Arrays.toString(findGreatestByDigitSumStreams(new int[]{}))); // null
         System.out.println("=".repeat(30));
     }
 
