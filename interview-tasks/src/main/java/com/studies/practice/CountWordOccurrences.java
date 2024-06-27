@@ -7,6 +7,7 @@ public class CountWordOccurrences {
         System.out.println("Count of occurrences: " + count("Dog dog DOG cat CAT cat", "dog")); // 3
         System.out.println("Count of occurrences: " + count("One, two, three! 1, 2, 3. One two three", "one")); // 2
         System.out.println("Count of occurrences: " + count("The quick brown fox jumps over the lazy dog. The quick brown fox is quick.", "quick")); // 3
+        System.out.println("Count of occurrences: " + count("The quick brown fox jumps over the lazy dog. The quick brown fox is quick.", "rails")); // 0
     }
 
     // O(n) time, O(1) space
